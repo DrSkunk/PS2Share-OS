@@ -1,6 +1,6 @@
 ## About
 
-This is a Buildroot external tree for the OS of the MMX VESC motor controller.
+This is a Buildroot external tree for the PS2Share OS for Raspberry Pi 1.
 
 ## Prerequisites
 
@@ -11,8 +11,8 @@ Prerequisites for buildroot [https://buildroot.org/downloads/manual/manual.html#
 Clone the repository
 
 ```
-git clone git@github.com:Wintergatan/vesc-os.git
-cd vesc-os
+git clone git@github.com:DrSkunk/PS2Share-OS.git
+cd PS2Share-OS
 git submodule update --init
 cd buildroot
 ```
@@ -20,7 +20,7 @@ cd buildroot
 To build:
 
 ```
-make BR2_EXTERNAL=../ vesc_rpi4_defconfig
+make BR2_EXTERNAL=../ ps2share_rpi_defconfig
 make BR2_EXTERNAL=../
 ```
 
